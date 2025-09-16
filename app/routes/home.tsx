@@ -32,7 +32,7 @@ export default function Home() {
                   className="flex items-center justify-center px-6 py-3 text-lg text-white bg-indigo-700 rounded-lg"
                 >
                   Explore Now
-                  <span className="animate-spi text-2xl px-3">
+                  <span className="text-2xl px-3">
                     <FaGlobe />
                   </span>
                 </Link>
