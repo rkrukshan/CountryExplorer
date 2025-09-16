@@ -8,13 +8,18 @@ export default function about() {
       </h2>
       <div className="text-xl mb-9 tracking-tighter text-justify font-light">
         Welcome to
-        <span className="text-lg text-blue-500 font-bold pl-1">
-          Country Explorer font-light
+        <span className="text-lg text-blue-500 font-bold px-1">
+          Country Explorer
         </span>
-        , your one-stop destination for discovering countries around the
-        globe.This website offers a comprehensive list of all recognized
-        nations,making it easy for users to explore essential information about
-        each one with just a few clicks.
+        This website uses the{" "}
+        <span className="text-lg font-bold pl-1">
+          REST Countries API
+        </span>{" "}
+        to provide a comprehensive list of all recognized nations. With just a
+        few clicks, users can easily explore essential information about each
+        country including population, region, capital, languages, flags, and
+        more. Whether you're curious about the world or need quick access to
+        country data, this platform makes global discovery simple and engaging.
       </div>
       <div className="text-xl mb-9 tracking-tighter text-justify font-light">
         Each country profile includes key details such as the official and
@@ -29,9 +34,9 @@ export default function about() {
         adding a colorful element to your exploration. Whether you're
         researching for education or planning a trip, World Explorer makes
         learning about the world simple and engaging. This website is built
-        using React, React Router v7, Axios, and Tailwind CSS, ensuring fast
-        performance, dynamic routing, and a fully responsive design across all
-        devices.
+        using <span className="text-lg font-bold px-1"> React, React Router v7, Axios, React Icons, and Tailwind CSS,</span>
+        ensuring fast performance, dynamic routing, and a fully responsive
+        design across all devices.
       </div>
     </div>
   );
