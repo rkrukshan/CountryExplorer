@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
     "dev": "react-router dev",
+    "build": "react-router build && cp _redirects build/client/_redirects",
     "start": "react-router-serve ./build/server/index.js",
+    "preview": "npx serve build/client",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
@@ -21,7 +22,7 @@
   "devDependencies": {
     "@react-router/dev": "^7.7.1",
     "@tailwindcss/vite": "^4.1.13",
-    "@types/node": "^20",
+    "@types/node": "^20.0.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "tailwindcss": "^4.1.13",
